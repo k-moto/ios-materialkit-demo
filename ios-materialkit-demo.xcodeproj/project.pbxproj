@@ -1,0 +1,719 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		0550D204022B8ED2BB6F8A87 /* Pods_ios_materialkit_demo.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DC5C400F74FE78613EADC5E8 /* Pods_ios_materialkit_demo.framework */; };
+		6EEC1E3C5999F895A448903C /* Pods_ios_materialkit_demoTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 01E81CDE72E9316CA95C707F /* Pods_ios_materialkit_demoTests.framework */; };
+		9FBD93C21E7E0CBA009DEDAD /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9FBD93C11E7E0CBA009DEDAD /* AppDelegate.swift */; };
+		9FBD93C41E7E0CBA009DEDAD /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9FBD93C31E7E0CBA009DEDAD /* ViewController.swift */; };
+		9FBD93C71E7E0CBA009DEDAD /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9FBD93C51E7E0CBA009DEDAD /* Main.storyboard */; };
+		9FBD93C91E7E0CBA009DEDAD /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9FBD93C81E7E0CBA009DEDAD /* Assets.xcassets */; };
+		9FBD93CC1E7E0CBA009DEDAD /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9FBD93CA1E7E0CBA009DEDAD /* LaunchScreen.storyboard */; };
+		9FBD93D71E7E0CBA009DEDAD /* ios_materialkit_demoTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9FBD93D61E7E0CBA009DEDAD /* ios_materialkit_demoTests.swift */; };
+		9FBD93E21E7E0CBA009DEDAD /* ios_materialkit_demoUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9FBD93E11E7E0CBA009DEDAD /* ios_materialkit_demoUITests.swift */; };
+		E549626EF43013848FF895EB /* Pods_ios_materialkit_demoUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2DD789440725F1A63EDABC6E /* Pods_ios_materialkit_demoUITests.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		9FBD93D31E7E0CBA009DEDAD /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 9FBD93B61E7E0CBA009DEDAD /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 9FBD93BD1E7E0CBA009DEDAD;
+			remoteInfo = "ios-materialkit-demo";
+		};
+		9FBD93DE1E7E0CBA009DEDAD /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 9FBD93B61E7E0CBA009DEDAD /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 9FBD93BD1E7E0CBA009DEDAD;
+			remoteInfo = "ios-materialkit-demo";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		01E81CDE72E9316CA95C707F /* Pods_ios_materialkit_demoTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_ios_materialkit_demoTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		21E0EE31503006711445FA62 /* Pods-ios-materialkit-demoUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ios-materialkit-demoUITests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-ios-materialkit-demoUITests/Pods-ios-materialkit-demoUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		2DD789440725F1A63EDABC6E /* Pods_ios_materialkit_demoUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_ios_materialkit_demoUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		3066911A650531A9E6CBA793 /* Pods-ios-materialkit-demoTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ios-materialkit-demoTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-ios-materialkit-demoTests/Pods-ios-materialkit-demoTests.debug.xcconfig"; sourceTree = "<group>"; };
+		62F74B575307CB062ECBC129 /* Pods-ios-materialkit-demoTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ios-materialkit-demoTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-ios-materialkit-demoTests/Pods-ios-materialkit-demoTests.release.xcconfig"; sourceTree = "<group>"; };
+		970DA6B6F1F7F1BD0DA7356A /* Pods-ios-materialkit-demo.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ios-materialkit-demo.debug.xcconfig"; path = "Pods/Target Support Files/Pods-ios-materialkit-demo/Pods-ios-materialkit-demo.debug.xcconfig"; sourceTree = "<group>"; };
+		9FBD93BE1E7E0CBA009DEDAD /* ios-materialkit-demo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "ios-materialkit-demo.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		9FBD93C11E7E0CBA009DEDAD /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		9FBD93C31E7E0CBA009DEDAD /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		9FBD93C61E7E0CBA009DEDAD /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		9FBD93C81E7E0CBA009DEDAD /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		9FBD93CB1E7E0CBA009DEDAD /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		9FBD93CD1E7E0CBA009DEDAD /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		9FBD93D21E7E0CBA009DEDAD /* ios-materialkit-demoTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "ios-materialkit-demoTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		9FBD93D61E7E0CBA009DEDAD /* ios_materialkit_demoTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ios_materialkit_demoTests.swift; sourceTree = "<group>"; };
+		9FBD93D81E7E0CBA009DEDAD /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		9FBD93DD1E7E0CBA009DEDAD /* ios-materialkit-demoUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "ios-materialkit-demoUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		9FBD93E11E7E0CBA009DEDAD /* ios_materialkit_demoUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ios_materialkit_demoUITests.swift; sourceTree = "<group>"; };
+		9FBD93E31E7E0CBA009DEDAD /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		DC5C400F74FE78613EADC5E8 /* Pods_ios_materialkit_demo.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_ios_materialkit_demo.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		E15EE346E388E5A643033F81 /* Pods-ios-materialkit-demo.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ios-materialkit-demo.release.xcconfig"; path = "Pods/Target Support Files/Pods-ios-materialkit-demo/Pods-ios-materialkit-demo.release.xcconfig"; sourceTree = "<group>"; };
+		F77D2A51EC5CB7786E2C9F5A /* Pods-ios-materialkit-demoUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ios-materialkit-demoUITests.release.xcconfig"; path = "Pods/Target Support Files/Pods-ios-materialkit-demoUITests/Pods-ios-materialkit-demoUITests.release.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		9FBD93BB1E7E0CBA009DEDAD /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0550D204022B8ED2BB6F8A87 /* Pods_ios_materialkit_demo.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9FBD93CF1E7E0CBA009DEDAD /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6EEC1E3C5999F895A448903C /* Pods_ios_materialkit_demoTests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9FBD93DA1E7E0CBA009DEDAD /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E549626EF43013848FF895EB /* Pods_ios_materialkit_demoUITests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		2FDB5E89B0AF1DC8619B436E /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				970DA6B6F1F7F1BD0DA7356A /* Pods-ios-materialkit-demo.debug.xcconfig */,
+				E15EE346E388E5A643033F81 /* Pods-ios-materialkit-demo.release.xcconfig */,
+				3066911A650531A9E6CBA793 /* Pods-ios-materialkit-demoTests.debug.xcconfig */,
+				62F74B575307CB062ECBC129 /* Pods-ios-materialkit-demoTests.release.xcconfig */,
+				21E0EE31503006711445FA62 /* Pods-ios-materialkit-demoUITests.debug.xcconfig */,
+				F77D2A51EC5CB7786E2C9F5A /* Pods-ios-materialkit-demoUITests.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		9FBD93B51E7E0CBA009DEDAD = {
+			isa = PBXGroup;
+			children = (
+				9FBD93C01E7E0CBA009DEDAD /* ios-materialkit-demo */,
+				9FBD93D51E7E0CBA009DEDAD /* ios-materialkit-demoTests */,
+				9FBD93E01E7E0CBA009DEDAD /* ios-materialkit-demoUITests */,
+				9FBD93BF1E7E0CBA009DEDAD /* Products */,
+				2FDB5E89B0AF1DC8619B436E /* Pods */,
+				E655C621F8951DCA5B3A26C4 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		9FBD93BF1E7E0CBA009DEDAD /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				9FBD93BE1E7E0CBA009DEDAD /* ios-materialkit-demo.app */,
+				9FBD93D21E7E0CBA009DEDAD /* ios-materialkit-demoTests.xctest */,
+				9FBD93DD1E7E0CBA009DEDAD /* ios-materialkit-demoUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		9FBD93C01E7E0CBA009DEDAD /* ios-materialkit-demo */ = {
+			isa = PBXGroup;
+			children = (
+				9FBD93C11E7E0CBA009DEDAD /* AppDelegate.swift */,
+				9FBD93C31E7E0CBA009DEDAD /* ViewController.swift */,
+				9FBD93C51E7E0CBA009DEDAD /* Main.storyboard */,
+				9FBD93C81E7E0CBA009DEDAD /* Assets.xcassets */,
+				9FBD93CA1E7E0CBA009DEDAD /* LaunchScreen.storyboard */,
+				9FBD93CD1E7E0CBA009DEDAD /* Info.plist */,
+			);
+			path = "ios-materialkit-demo";
+			sourceTree = "<group>";
+		};
+		9FBD93D51E7E0CBA009DEDAD /* ios-materialkit-demoTests */ = {
+			isa = PBXGroup;
+			children = (
+				9FBD93D61E7E0CBA009DEDAD /* ios_materialkit_demoTests.swift */,
+				9FBD93D81E7E0CBA009DEDAD /* Info.plist */,
+			);
+			path = "ios-materialkit-demoTests";
+			sourceTree = "<group>";
+		};
+		9FBD93E01E7E0CBA009DEDAD /* ios-materialkit-demoUITests */ = {
+			isa = PBXGroup;
+			children = (
+				9FBD93E11E7E0CBA009DEDAD /* ios_materialkit_demoUITests.swift */,
+				9FBD93E31E7E0CBA009DEDAD /* Info.plist */,
+			);
+			path = "ios-materialkit-demoUITests";
+			sourceTree = "<group>";
+		};
+		E655C621F8951DCA5B3A26C4 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				DC5C400F74FE78613EADC5E8 /* Pods_ios_materialkit_demo.framework */,
+				01E81CDE72E9316CA95C707F /* Pods_ios_materialkit_demoTests.framework */,
+				2DD789440725F1A63EDABC6E /* Pods_ios_materialkit_demoUITests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		9FBD93BD1E7E0CBA009DEDAD /* ios-materialkit-demo */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 9FBD93E61E7E0CBA009DEDAD /* Build configuration list for PBXNativeTarget "ios-materialkit-demo" */;
+			buildPhases = (
+				926110389533F247DF70D7EB /* [CP] Check Pods Manifest.lock */,
+				9FBD93BA1E7E0CBA009DEDAD /* Sources */,
+				9FBD93BB1E7E0CBA009DEDAD /* Frameworks */,
+				9FBD93BC1E7E0CBA009DEDAD /* Resources */,
+				55600D5634202045AD2A2966 /* [CP] Embed Pods Frameworks */,
+				0812D4B541E9CF7A006A1BF3 /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "ios-materialkit-demo";
+			productName = "ios-materialkit-demo";
+			productReference = 9FBD93BE1E7E0CBA009DEDAD /* ios-materialkit-demo.app */;
+			productType = "com.apple.product-type.application";
+		};
+		9FBD93D11E7E0CBA009DEDAD /* ios-materialkit-demoTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 9FBD93E91E7E0CBA009DEDAD /* Build configuration list for PBXNativeTarget "ios-materialkit-demoTests" */;
+			buildPhases = (
+				7AAA2D8B08B6774104AB88C3 /* [CP] Check Pods Manifest.lock */,
+				9FBD93CE1E7E0CBA009DEDAD /* Sources */,
+				9FBD93CF1E7E0CBA009DEDAD /* Frameworks */,
+				9FBD93D01E7E0CBA009DEDAD /* Resources */,
+				B8CA092DFC322273848EB3BC /* [CP] Embed Pods Frameworks */,
+				F6FB2F39ADA37FFDC9359812 /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				9FBD93D41E7E0CBA009DEDAD /* PBXTargetDependency */,
+			);
+			name = "ios-materialkit-demoTests";
+			productName = "ios-materialkit-demoTests";
+			productReference = 9FBD93D21E7E0CBA009DEDAD /* ios-materialkit-demoTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		9FBD93DC1E7E0CBA009DEDAD /* ios-materialkit-demoUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 9FBD93EC1E7E0CBA009DEDAD /* Build configuration list for PBXNativeTarget "ios-materialkit-demoUITests" */;
+			buildPhases = (
+				0BFBF61023C9CDE31CEDFC29 /* [CP] Check Pods Manifest.lock */,
+				9FBD93D91E7E0CBA009DEDAD /* Sources */,
+				9FBD93DA1E7E0CBA009DEDAD /* Frameworks */,
+				9FBD93DB1E7E0CBA009DEDAD /* Resources */,
+				6A590C484BE81DE6D973ABD8 /* [CP] Embed Pods Frameworks */,
+				257C2C2B3201426A274F1720 /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				9FBD93DF1E7E0CBA009DEDAD /* PBXTargetDependency */,
+			);
+			name = "ios-materialkit-demoUITests";
+			productName = "ios-materialkit-demoUITests";
+			productReference = 9FBD93DD1E7E0CBA009DEDAD /* ios-materialkit-demoUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		9FBD93B61E7E0CBA009DEDAD /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0820;
+				LastUpgradeCheck = 0820;
+				ORGANIZATIONNAME = k_moto;
+				TargetAttributes = {
+					9FBD93BD1E7E0CBA009DEDAD = {
+						CreatedOnToolsVersion = 8.2;
+						ProvisioningStyle = Automatic;
+					};
+					9FBD93D11E7E0CBA009DEDAD = {
+						CreatedOnToolsVersion = 8.2;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 9FBD93BD1E7E0CBA009DEDAD;
+					};
+					9FBD93DC1E7E0CBA009DEDAD = {
+						CreatedOnToolsVersion = 8.2;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 9FBD93BD1E7E0CBA009DEDAD;
+					};
+				};
+			};
+			buildConfigurationList = 9FBD93B91E7E0CBA009DEDAD /* Build configuration list for PBXProject "ios-materialkit-demo" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 9FBD93B51E7E0CBA009DEDAD;
+			productRefGroup = 9FBD93BF1E7E0CBA009DEDAD /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				9FBD93BD1E7E0CBA009DEDAD /* ios-materialkit-demo */,
+				9FBD93D11E7E0CBA009DEDAD /* ios-materialkit-demoTests */,
+				9FBD93DC1E7E0CBA009DEDAD /* ios-materialkit-demoUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		9FBD93BC1E7E0CBA009DEDAD /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9FBD93CC1E7E0CBA009DEDAD /* LaunchScreen.storyboard in Resources */,
+				9FBD93C91E7E0CBA009DEDAD /* Assets.xcassets in Resources */,
+				9FBD93C71E7E0CBA009DEDAD /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9FBD93D01E7E0CBA009DEDAD /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9FBD93DB1E7E0CBA009DEDAD /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		0812D4B541E9CF7A006A1BF3 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-ios-materialkit-demo/Pods-ios-materialkit-demo-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		0BFBF61023C9CDE31CEDFC29 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		257C2C2B3201426A274F1720 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-ios-materialkit-demoUITests/Pods-ios-materialkit-demoUITests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		55600D5634202045AD2A2966 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-ios-materialkit-demo/Pods-ios-materialkit-demo-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		6A590C484BE81DE6D973ABD8 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-ios-materialkit-demoUITests/Pods-ios-materialkit-demoUITests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		7AAA2D8B08B6774104AB88C3 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		926110389533F247DF70D7EB /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		B8CA092DFC322273848EB3BC /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-ios-materialkit-demoTests/Pods-ios-materialkit-demoTests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		F6FB2F39ADA37FFDC9359812 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-ios-materialkit-demoTests/Pods-ios-materialkit-demoTests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		9FBD93BA1E7E0CBA009DEDAD /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9FBD93C41E7E0CBA009DEDAD /* ViewController.swift in Sources */,
+				9FBD93C21E7E0CBA009DEDAD /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9FBD93CE1E7E0CBA009DEDAD /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9FBD93D71E7E0CBA009DEDAD /* ios_materialkit_demoTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9FBD93D91E7E0CBA009DEDAD /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9FBD93E21E7E0CBA009DEDAD /* ios_materialkit_demoUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		9FBD93D41E7E0CBA009DEDAD /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 9FBD93BD1E7E0CBA009DEDAD /* ios-materialkit-demo */;
+			targetProxy = 9FBD93D31E7E0CBA009DEDAD /* PBXContainerItemProxy */;
+		};
+		9FBD93DF1E7E0CBA009DEDAD /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 9FBD93BD1E7E0CBA009DEDAD /* ios-materialkit-demo */;
+			targetProxy = 9FBD93DE1E7E0CBA009DEDAD /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		9FBD93C51E7E0CBA009DEDAD /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				9FBD93C61E7E0CBA009DEDAD /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		9FBD93CA1E7E0CBA009DEDAD /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				9FBD93CB1E7E0CBA009DEDAD /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		9FBD93E41E7E0CBA009DEDAD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		9FBD93E51E7E0CBA009DEDAD /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		9FBD93E71E7E0CBA009DEDAD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 970DA6B6F1F7F1BD0DA7356A /* Pods-ios-materialkit-demo.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "ios-materialkit-demo/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "jp.st-ventures.ios-materialkit-demo";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Debug;
+		};
+		9FBD93E81E7E0CBA009DEDAD /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = E15EE346E388E5A643033F81 /* Pods-ios-materialkit-demo.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "ios-materialkit-demo/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "jp.st-ventures.ios-materialkit-demo";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Release;
+		};
+		9FBD93EA1E7E0CBA009DEDAD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 3066911A650531A9E6CBA793 /* Pods-ios-materialkit-demoTests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = "ios-materialkit-demoTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "jp.st-ventures.ios-materialkit-demoTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ios-materialkit-demo.app/ios-materialkit-demo";
+			};
+			name = Debug;
+		};
+		9FBD93EB1E7E0CBA009DEDAD /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 62F74B575307CB062ECBC129 /* Pods-ios-materialkit-demoTests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = "ios-materialkit-demoTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "jp.st-ventures.ios-materialkit-demoTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ios-materialkit-demo.app/ios-materialkit-demo";
+			};
+			name = Release;
+		};
+		9FBD93ED1E7E0CBA009DEDAD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 21E0EE31503006711445FA62 /* Pods-ios-materialkit-demoUITests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				INFOPLIST_FILE = "ios-materialkit-demoUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "jp.st-ventures.ios-materialkit-demoUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = "ios-materialkit-demo";
+			};
+			name = Debug;
+		};
+		9FBD93EE1E7E0CBA009DEDAD /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = F77D2A51EC5CB7786E2C9F5A /* Pods-ios-materialkit-demoUITests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				INFOPLIST_FILE = "ios-materialkit-demoUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "jp.st-ventures.ios-materialkit-demoUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = "ios-materialkit-demo";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		9FBD93B91E7E0CBA009DEDAD /* Build configuration list for PBXProject "ios-materialkit-demo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9FBD93E41E7E0CBA009DEDAD /* Debug */,
+				9FBD93E51E7E0CBA009DEDAD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		9FBD93E61E7E0CBA009DEDAD /* Build configuration list for PBXNativeTarget "ios-materialkit-demo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9FBD93E71E7E0CBA009DEDAD /* Debug */,
+				9FBD93E81E7E0CBA009DEDAD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		9FBD93E91E7E0CBA009DEDAD /* Build configuration list for PBXNativeTarget "ios-materialkit-demoTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9FBD93EA1E7E0CBA009DEDAD /* Debug */,
+				9FBD93EB1E7E0CBA009DEDAD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		9FBD93EC1E7E0CBA009DEDAD /* Build configuration list for PBXNativeTarget "ios-materialkit-demoUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9FBD93ED1E7E0CBA009DEDAD /* Debug */,
+				9FBD93EE1E7E0CBA009DEDAD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 9FBD93B61E7E0CBA009DEDAD /* Project object */;
+}
