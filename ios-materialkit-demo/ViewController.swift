@@ -24,8 +24,9 @@ class ViewController: UIViewController {
         
         let button = MKButton(frame: CGRect(x: 100, y: 100, width: 100, height: 35))
         button.maskEnabled = true
+        button.rippleLayerColor = UIColor.MKColor.LightGreen.A200
         button.setTitle("→", for: .normal)
-        button.backgroundColor = UIColor.MKColor.LightGreen.A700
+        button.backgroundColor = UIColor.MKColor.Green.A700
         
         return button
     }
