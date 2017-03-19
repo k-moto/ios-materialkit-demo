@@ -1,6 +1,5 @@
 # ios-materialkit-demo
 iOS MaterialKit のサンプルです<br>
-github:https://github.com/faresbh/MaterialKit
 
 ## 1. PodFile
 
