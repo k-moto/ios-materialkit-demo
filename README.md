@@ -12,6 +12,7 @@ pod 'MaterialKit', :git => 'https://github.com/faresbh/MaterialKit', :branch => 
 
 ### MKButton
 マテリアルデザイン風のボタン<br>
+
 |メソッド名|説明|サンプル|
 |---|---|---|
 |init | MKButtonを生成する | MKButton(frame: CGRect) |
@@ -23,6 +24,7 @@ pod 'MaterialKit', :git => 'https://github.com/faresbh/MaterialKit', :branch => 
 
 ### MKTextField
 マテリアルデザイン風のテキストフィールド<br>
+
 |メソッド名|説明|サンプル|
 |---|---|---|
 |init | MKTextFieldを生成する | MKTextField(frame: CGRect) |
